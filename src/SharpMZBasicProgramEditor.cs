@@ -151,7 +151,7 @@ namespace SharpMZBasicProgramEditor
             Grid.SetColumn(saveButton, 4);
             grid.Children.Add(saveButton);
 
-            var checkButton = CreateToolbarButton("Check S-BASIC");
+            var checkButton = CreateToolbarButton("Check Syntax");
             checkButton.Click += OnCheckSyntaxClicked;
             Grid.SetColumn(checkButton, 6);
             grid.Children.Add(checkButton);
